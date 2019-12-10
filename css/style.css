@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.body{
+body{
   font-family: Lato;
 }
 
@@ -26,7 +26,6 @@
 
 .contact_box{
   padding: 15px 0;
-  margin: 0 auto;
   font-size: 40px;
 }
 
@@ -40,19 +39,20 @@
   transition:all 0.3s;
 }
 
-.contact_box:hover,.email:hover{
+.contact_text:hover,.email:hover{
   color: #333;
-  transition: 0.3s;
-  cursor: pointer;
 }
 
 .main{
   padding-top: 72px;
 }
 
+.font_box{
+  font-family: Raleway;
+}
+
 .gray_box{
   background-color: #f2f2f2;
-  font-family: Raleway;
 }
 
 .bolt{
@@ -104,11 +104,11 @@
 
 .our{
   background-color: #f2f2f2;
-  margin: 0 auto;
 }
 
 .our_box{
   padding-top: 60px;
+  padding-bottom: 70px;
 }
 
 .our_text{
@@ -119,7 +119,7 @@
 .img_box{
   font-size: 0;
   margin-bottom: 90px;
-  padding-top: 40px;
+  margin-top: 40px;
 }
 
 .child_box{
@@ -148,7 +148,6 @@
  margin: 0 auto;
  text-align: center;
  width: 930px;
- padding-bottom: 70px;
 }
 
 .lorem_text{
@@ -174,6 +173,7 @@
 
 .skills_box{
   padding-top: 70px;
+  padding-bottom: 100px;
 }
 
 .skills_text{
@@ -184,7 +184,6 @@
 }
 
 .ball_box{
-  padding-bottom: 100px;
   text-align: center;
 }
 
@@ -202,6 +201,10 @@
 .ball{
   color: #fff;
   margin-top: 20px;
+}
+
+.sns{
+  background-color: #f2f2f2;
 }
 
 .s_box{
@@ -237,10 +240,13 @@
   background-color: #74cfae;
 }
 
-.footer_box{
-  font-size: 12px;
+.crafted{
   padding-top: 20px;
   padding-bottom: 25px;
+}
+
+.footer_box{
+  font-size: 12px;
   text-align: right;
   color: #fff;
 }
