@@ -1,4 +1,9 @@
 @charset "UTF-8";
+
+.body{
+  font-family: Lato;
+}
+
 .width_box{
   width: 1100px;
   margin: 0 auto;
@@ -10,7 +15,7 @@
   clear: both;
 }
 
-.header_box{
+.contact{
   position: fixed;
   top: 0;
   left: 0;
@@ -19,51 +24,59 @@
   z-index: 10;
 }
 
-.header_big_box{
+.contact_box{
   padding: 15px 0;
   margin: 0 auto;
   font-size: 40px;
 }
 
-.header_a_box{
+.contact_text{
   font-size:12px;
   background-color:	#74cfae;
   color: #fff;
   padding: 14px 12px;
   float: right;
   text-decoration: none;
+  transition:all 0.3s;
 }
 
-.header_a_box:hover,.main_under_a:hover{
+.contact_box:hover,.email:hover{
   color: #333;
   transition: 0.3s;
   cursor: pointer;
 }
 
-.gray_box{
-  background-color: #f2f2f2;
-  margin-top: 78px;
+.main{
+  padding-top: 72px;
 }
 
-.bolt_free_box{
+.gray_box{
+  background-color: #f2f2f2;
+  font-family: Raleway;
+}
+
+.bolt{
   padding: 250px 0;
   text-align: center;
 }
 
-.bolt_h_text{
+.bolt_text{
   font-size: 90px;
   font-weight: 700;
-  margin-bottom: 20px;
   color: #74cfae;
 }
 
-.free_h_text{
+.free_text{
   font-size: 30px;
   color: #c0c0c0;
+  margin-top: 20px;
 }
 
-.section_box1{
+.what{
   background-color: #74cfae;
+}
+
+.what_box{
   padding-top: 50px;
 }
 
@@ -71,7 +84,7 @@
   float: left;
 }
 
-.h3_p_box{
+.what_text_box{
   float: right;
   text-align: center;
   width: 750px;
@@ -79,24 +92,26 @@
   line-height: 30px;
 }
 
-.what_h_text{
+.what_text{
   font-size: 24px;
   margin: 35px;
 }
 
-.loren_p_text{
+.we_text{
   font-size: 20px;
   word-break: break-word;
 }
 
-.article_box{
+.our{
   background-color: #f2f2f2;
   margin: 0 auto;
 }
 
-.article_h3_box{
+.our_box{
   padding-top: 60px;
-  padding-bottom: 40px;
+}
+
+.our_text{
   text-align: center;
   font-size: 24px;
 }
@@ -104,6 +119,7 @@
 .img_box{
   font-size: 0;
   margin-bottom: 90px;
+  padding-top: 40px;
 }
 
 .child_box{
@@ -111,6 +127,7 @@
   margin-right: 100px;
   margin-top: 80px;
   opacity: 0.7;
+  transition: all 0.3s;
 }
 
 .child_box:nth-child(3n){
@@ -127,20 +144,20 @@
   margin-top: 0;
 }
 
-.main_under_box{
+.lorem{
  margin: 0 auto;
  text-align: center;
  width: 930px;
  padding-bottom: 70px;
 }
 
-.main_under_p{
+.lorem_text{
   width: 660px;
   float: left;
   line-height: 30px;
 }
 
-.main_under_a{
+.email{
   font-size: 12px;
   padding: 14px 20px;
   background-color: #74cfae;
@@ -148,21 +165,27 @@
   float: left;
   margin-left: 90px;
   text-decoration: none;
+  transition: all 0.3s;
 }
 
-.section_box2{
+.skills{
   background-color: #4e4e4e;
+}
+
+.skills_box{
   padding-top: 70px;
 }
 
-.h3_text_box{
+.skills_text{
   color: #fff;
   text-align: center;
   margin-bottom: 50PX;
+  font-size: 24px;
 }
 
 .ball_box{
   padding-bottom: 100px;
+  text-align: center;
 }
 
 .inball_box{
@@ -179,19 +202,16 @@
 .ball{
   color: #fff;
   margin-top: 20px;
-
 }
 
-.nav_box{
-  background-color: #f2f2f2;
+.s_box{
   padding: 200px 0;
-  font-size: 50px;
-  color: #74cfae;
 }
 
 .i_box{
   text-align: center;
   padding: 20px;
+  /* color: #74cfae; */
 }
 
 .icon_box{
@@ -200,11 +220,11 @@
   padding: 20px;
   box-sizing: border-box;
   text-decoration: none;
+  font-size: 50px;
 }
 
 .icon_box > i {
   color: #74cfae;;
-  
 }
 
 .icon_box:hover{
@@ -213,13 +233,14 @@
   cursor : pointer;
 }
 
-.footer_box{
+.footer{
   background-color: #74cfae;
 }
 
-.footer_p_box{
+.footer_box{
   font-size: 12px;
   padding-top: 20px;
   padding-bottom: 25px;
-  float: right;
+  text-align: right;
+  color: #fff;
 }
