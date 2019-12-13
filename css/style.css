@@ -94,7 +94,7 @@ body{
 
 .what_text{
   font-size: 24px;
-  margin: 35px;
+  margin: 35px 0;
 }
 
 .we_text{
@@ -213,7 +213,6 @@ body{
 
 .i_box{
   text-align: center;
-  padding: 20px;
   /* color: #74cfae; */
 }
 
@@ -250,3 +249,192 @@ body{
   text-align: right;
   color: #fff;
 }
+
+
+
+@media screen and (max-width:767px) {
+  .width_box{
+    width: 97%;
+  }
+
+  .bigline{
+    position: relative;
+  }
+
+  .line_box{
+    width: 30px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float: right;
+    font-size: 0;
+  }
+
+  .line{
+    height: 3px;
+    width: 30px;
+    background-color: #ddd;
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .bolt{
+    padding-top: 160px;
+    padding-bottom: 130px;
+  }
+
+  .bolt_free{
+    font-size: 40px;
+  }
+
+  .what_box{
+    position: relative;
+    padding-bottom: 20px;
+  }
+
+  .iphone_box{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  }
+
+  .what_text_box{
+    width: 100%;
+    margin-top: 270px;
+  }
+
+  .img_box{
+    text-align: center;
+  }
+
+  .child_box {
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .child_box:nth-child(3){
+    margin-bottom:80px;
+  }
+
+  .lorem{
+    width: 100%;
+    text-align: center;
+  }
+
+  .lorem_text {
+    width: 100%;
+    float: none;
+    margin-bottom: 50px;
+  }
+
+  .email{
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+
+  .inball_box{
+    display: block;
+    margin-right:  0;
+    margin-bottom:  80px;
+  }
+
+ .inball_box:last-child{
+   margin-bottom: 0;
+ }
+
+ .s_box{
+   padding: 60px 0; 
+ }
+
+ .icon_box{
+   display: block;
+   margin: 0 auto;
+   width: 100%;
+   padding-right: 0;
+   padding-left: 0;
+ }
+
+  .contact_text{
+    display: none;
+}
+
+  }
+
+     
+@media only screen and (min-width:768px) and (max-width:1119px) {
+  .width_box{
+    width: 97%;
+  }
+  
+  .iphone_box{
+    float: none;
+  }
+
+  .what_text{
+    margin-top: 20px;
+  }
+
+  .we_text{
+    font-size: 16px;
+  }
+
+  .what_text_box{
+    float: none;
+  }
+
+  .what_box{
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .lorem_text{
+    width: 100%;
+  }
+
+  .lorem{
+    width: 100%;
+  }
+
+  .our_box{
+    text-align: center;
+  }
+
+  .child_box {
+    margin-right: 0;
+    margin-top: 0;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .child_box:nth-child(3n){
+    margin: 0 auto 80px;
+  }
+
+  .email{
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+    margin-top: 40px;
+  }
+
+  .inball_box{
+    display: block;
+    margin-right:  0;
+    margin-bottom:  80px;
+  }
+  
+  .inball_box:last-child{
+    margin-bottom: 0;
+  }
+
+  .icon_box{
+    width: 140px;
+  }
+
+    
+/* @media screen and (min-width:1200px) { */
+  
