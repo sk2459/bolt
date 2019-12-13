@@ -285,13 +285,7 @@ body{
     width: 100%;
   }
 
-  .our_box{
-    text-align: center;
-  }
-
   .child_box {
-    margin-right: 0;
-    margin-top: 0;
     display: block;
     width: 300px;
     margin: 0 auto;
@@ -322,17 +316,17 @@ body{
     margin-bottom: 0;
   }
 
+  .i_box{
+    font-size: 0;    
+  }
+
   .icon_box{
-    width: 20%;
+    width: 25%;
   }
 }
 
 @media screen and (max-width:767px) {
   
-  .bigline{
-    position: relative;
-  }
-
   .line_box{
     width: 30px;
     padding: 10px;
@@ -352,8 +346,7 @@ body{
   }
 
   .bolt{
-    padding-top: 160px;
-    padding-bottom: 130px;
+    padding-top: 160px　0 130px;
   }
 
   .bolt_free{
@@ -361,7 +354,7 @@ body{
   }
 
   .what_box{
-    position: relative;
+    /* position: relative; */
     padding-bottom: 20px;
   }
 
@@ -378,12 +371,11 @@ body{
 
   .inball_box{
     display: block;
-    margin-right:  0;
-    margin-bottom:  80px;
+    margin-right:  0 0 80px;
   }
 
  .inball_box:last-child{
-   margin-bottom: 0;
+    margin-bottom: 0;
  }
 
  .s_box{
@@ -391,12 +383,12 @@ body{
  }
 
  .icon_box{
-   display: block;
-   margin: 0 auto;
-   width: 100%;
-   padding-right: 0;
-   padding-left: 0;
- }
+    display: block;
+    /* margin: 0 auto; */
+    width: 100%;
+    /* padding-right: 0;
+    padding-left: 0; */
+  }
 
   .contact_text{
     display: none;
